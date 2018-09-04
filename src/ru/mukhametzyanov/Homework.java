@@ -24,9 +24,9 @@ public class Homework {
         ManagmentCompany MC = new ManagmentCompany("Сувар", "ул. Гоголя 1");
         MC.setHomeList(new Home[]{home, home1});
 
-        /*System.out.println(resident);
+        System.out.println(resident);
         System.out.println(home);
-        System.out.println(MC);*/
+        System.out.println(MC);
 
         System.out.println("Введие новый номер Личного счета: ");
         Scanner scanner = new Scanner(System.in);
